@@ -1,24 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import Card from './comp/card';
+import { sqrt } from './services/demo'
+import { supp } from './types/demoTypes';
 
 function App() {
+
+  sqrt()
+ let a = 'syed'
+ let b = 'areeb'
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React and typscript
-        </a>
-      </header>
+    <div>
+      <div>
+        {
+        sqrt().map((obj:supp, ind:number) => {
+          return (
+            <div key={ind}>
+              <h1>{obj.murabba}</h1>
+              <h1>{obj.name}</h1>
+            </div>
+          )
+        })
+      }
+
+      </div>
+      
+      <h1>hy</h1>
+      <Card />
     </div>
   );
 }
