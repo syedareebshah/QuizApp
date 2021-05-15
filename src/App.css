@@ -1,0 +1,32 @@
+.main-card,.main-question-card{
+    margin: 50px auto;
+    box-shadow: 4px 4px 12px 5px lightblue;
+    max-width: 350px;
+    text-align: center;
+    padding: 50px;
+}
+.main-question-card{
+    text-align: start;
+}
+
+.input{
+    box-shadow: 2px 1px 3px 2px lightskyblue;
+    font-size: medium;
+    width: 80%;
+    border: double;
+    padding: 7px;
+    background-color: seashell;
+}
+select{
+    width: 50%;
+    border: double;
+}
+.logBtn{
+    padding: 3px;
+    width: 40%;
+    margin: 20px;
+    border: double;
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: 800;
+}

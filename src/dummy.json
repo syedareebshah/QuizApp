@@ -1,14 +1,169 @@
 [
     {
-        "murabba": 125,
-        "name": "akbar"
+        "question": "Brain of commputer is",
+        "options":
+          [
+            "CPU",
+            "RAM",
+            "LCD",
+            "Mouse"
+          ],
+          "correctAns": "CPU"
     },
     {
-        "murabba": 132,
-        "name": "akbaar"
+        "question": "Pakistan won cricket worldCup in",
+        "options":
+          [
+            "2012",
+            "1999",
+            "1992",
+            "2005"
+          ],
+          "correctAns": "1992"
     },
     {
-        "murabba": 12,
-        "name": "akbaar"
-    }
+        "question": "Pakistan came into being",
+        "options":
+          [
+            "1929",
+            "1947",
+            "1965",
+            "1971"
+          ],
+          "correctAns": "1947"
+    },
+    {
+      "question": "What colour is a giraffe's tongue",
+      "options":
+        [
+          "blue",
+          "red",
+          "pink",
+          "white"
+        ],
+        "correctAns": "blue"
+  },
+  {
+    "question": "Man is mortal",
+    "options":
+      [
+        "True",
+        "False"
+        
+      ],
+      "correctAns": "True"
+},
+{
+  "question": "National game of Pakistan is",
+  "options":
+    [
+      "cricket",
+      "hockey",
+      "footbal",
+      "kabaddi"
+      
+    ],
+    "correctAns": "hockey"
+},
+{
+  "question": "When human steped on mood",
+  "options":
+    [
+      "1979",
+      "1969",
+      "1965",
+      "1999"
+      
+    ],
+    "correctAns": "1969"
+},
+{
+  "question": "Trump was____th US President",
+  "options":
+    [
+      "41th",
+      "46th",
+      "45th",
+      "47th"
+      
+    ],
+    "correctAns": "45th"
+},
+{
+  "question": "Israel is ",
+  "options":
+    [
+      "terrorist",
+      "murdrer",
+      "both"
+      
+    ],
+    "correctAns": "both"
+},
+{
+  "question": "Hard Disk in  computer is",
+  "options":
+    [
+      "Output Device",
+      "Processor",
+      "Storage Devicer"
+      
+    ],
+    "correctAns": "Storage Devicer"
+},
+{
+  "question": "Smallest unit of data in a computer is",
+  "options":
+    [
+      "Bite",
+      "Kilo Bite",
+      "byte"
+      
+    ],
+    "correctAns": "Bite"
+},
+{
+  "question": "Extension of MS Word file is",
+  "options":
+    [
+      ".doc",
+      ".png",
+      ".jpg"
+      
+    ],
+    "correctAns": ".doc"
+},
+{
+  "question": "Biggest compny of Computer Software is",
+  "options":
+    [
+      "Tesla",
+      "Google",
+      "Microsoft"
+      
+    ],
+    "correctAns": "Microsoft"
+},
+{
+  "question": "Founder of Chemistry is",
+  "options":
+    [
+      "Al Bairuni",
+      "Jabir bin Hayan",
+      "Ibn ul haitham"
+      
+    ],
+    "correctAns": "Jabir bin Hayan"
+},
+{
+  "question": "UNO was found in",
+  "options":
+    [
+      "1966",
+      "1945",
+      "1999"
+      
+    ],
+    "correctAns": "1945"
+}
 ]

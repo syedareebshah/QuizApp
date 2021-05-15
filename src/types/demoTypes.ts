@@ -1,12 +1,7 @@
 
-export type supp = {
-    murabba: number,
-    name: string
+export type question = {
+    question: string,
+    options: string[],
+    correctAns: string
 }
-export type jubb={
-    add: ()=> number,
-}
-export type questionPropsType = {
-    msg: string
-    msgz: string
-}
+
