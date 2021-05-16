@@ -1,17 +1,17 @@
 import './../App.css'
-import { Link,  } from "react-router-dom";
+import { Link, useNavigate  } from "react-router-dom";
 import { useState } from 'react';
 
 const Login = () => {
 
-
-
     let [name,setName]=useState('')
     let [num,setNum]=useState('5')
+    let navigate = useNavigate();
+
     let handleChange =(e: any)=>{
         e.preventDefault()
-        // console.log('....')
-        // history.push(`/quiz/${name}/${num}`);
+        console.log('....')
+        navigate(`/quiz/${name}/${num}`, { replace: true });
     }
 
 
@@ -26,9 +26,7 @@ const Login = () => {
                     <option value={10}>10</option>
                     <option value={15}>15</option>
                 </select><br />
-                <Link to={`/quiz/${name}/${num}`}>
                 <button type='submit' className='logBtn'>Start Quiz</button>
-                </Link>
             </form>
         </div>
     )
